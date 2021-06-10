@@ -1,0 +1,111 @@
+body{font-family: Roboto;
+          font-size: 20px;
+            margin: auto;
+           max-width: auto;
+           max-height: 4000px;
+           background-color: black;
+           color: white;
+        }
+       
+        #image{
+            float: left;
+            padding: 0px 20px 20px 20px;
+           height: 300px;
+           width: 300px;
+        }
+        .left{
+            
+            float: left;
+            
+            width: 50%;
+        }
+        .right{
+            float: right;
+           
+            width: 40%;
+        }
+        #identity{
+            overflow: auto;
+        }
+        .list_box{
+            overflow: auto;
+        }
+        #background{
+            background-image: url("img/bat_cover.jpg");
+            height:470px;
+            width: 1500px;
+            padding-top: 50px;
+            color: #fff;
+            background-repeat: no-repeat;
+           background-position: center;
+           margin-top: 90px;
+        }
+        #content{
+            background-color: rgba(0,0,0,0.7);
+            max-width: 450px;
+            padding: 30px 20px 30px 20px;
+            margin-top: 50px;
+        }
+        .thumbnail {
+display: inline-block;
+height: auto;
+padding: 4px;
+margin-bottom: 20px;
+background-color: #fff;
+border: 1px solid #a4a4a4;
+text-align: center;
+color: #666;
+margin: 50px;
+}
+table{
+    border: 1px solid;
+  
+    border-collapse: collapse;
+    
+}
+th ,td{
+    padding: 15px;
+    height: 30px;
+    border: 1px solid #a4a4a4;
+    text-align: center;
+}
+.header{
+    background-color: #000;
+    color: white;
+   
+    min-height: 50px;
+    }
+.inner-header{
+    width: 1200px;
+    margin: auto;
+}
+.logo{
+     float: left;
+     height: 20px;
+    
+     
+}
+.h-link{
+      float:right; 
+      font-size:14px;  
+      height: 50px; 
+      padding: 15px 15px; 
+      font-size:16px;  
+      font-weight: bold;
+      color: white;
+}
+a{
+    color: white;
+}
+input {
+padding: 14px 70px;
+font-size: 15px;
+margin-bottom: 30px;}
+#subscribe {
+border: none;
+background-color: #26211f;
+color: white;
+font-size: 16px;
+margin: 4px -4px;
+padding: 16px 40px;
+}
